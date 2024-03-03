@@ -4,18 +4,13 @@
 using namespace std;
 
 int main() {
-  // Store integers of some types and decimals//
-  // int
-  int x = 120;
-  // long
-  long a = 145;
-  // long long;
-  long long b = 150304030404;
-  // float
-  float d = 5.6;
-  // double
-  double e = 5;
-  // Adouble can represent much largernumber than float
+  // only the characters within 2 spaces are considered as 1 string
+  // so to get a string with spaces we use getline
+  // char datatype works jut like in C
+  string str;
+  getline(cin, str);
+  cout << str;
 
   return 0;
+  
 }
