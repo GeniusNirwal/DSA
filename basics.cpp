@@ -4,12 +4,18 @@
 using namespace std;
 
 int main() {
-  int x, y;
-  // Only defining the variables
-  cin >> x >> y;
-  // to take an input from the user
-  cout << "The value of x is " << x << "\tThe value of y is "<< y << endl; 
-  // cout to pring the output
-  // endl to end the output line
+  // Store integers of some types and decimals//
+  // int
+  int x = 120;
+  // long
+  long a = 145;
+  // long long;
+  long long b = 150304030404;
+  // float
+  float d = 5.6;
+  // double
+  double e = 5;
+  // Adouble can represent much largernumber than float
+
   return 0;
 }
